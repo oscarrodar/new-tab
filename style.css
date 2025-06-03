@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+  min-width: 400px; /* Slightly wider for better spacing */
+  min-height: 300px; /* Slightly taller */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f2f5; /* Softer background color */
+  color: #333;
+  margin: 0; /* Remove default body margin */
+  height: 100vh; /* Make body take full viewport height for new tab */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container { /* Add a container for the content */
+  background-color: #ffffff; /* White background for the content box */
+  padding: 30px 40px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#datetime {
+  margin-bottom: 25px; /* Increased spacing */
+  border-bottom: 1px solid #e0e0e0; /* Separator line */
+  padding-bottom: 25px; /* Spacing below the line */
+}
+
+#time {
+  font-size: 3.5em; /* Slightly larger time */
+  font-weight: 300; /* Lighter font weight for elegance */
+  color: #2c3e50; /* Darker, sophisticated color */
+  margin-bottom: 0px; /* Reduced space between time and date */
+}
+
+#date {
+  font-size: 1.3em; /* Larger date */
+  color: #555; /* Softer color for date */
+  font-weight: 300;
+}
+
+#week-number {
+  margin-bottom: 20px;
+}
+
+#week {
+  font-size: 1.2em; /* Adjusted size */
+  color: #34495e; /* Consistent color scheme */
+  font-weight: 300;
+}
+
+#weather {
+  margin-bottom: 0; /* No margin if it's the last element in the container */
+}
+
+#weather-info {
+  font-size: 1.2em; /* Adjusted size */
+  color: #34495e; /* Consistent color scheme */
+  font-weight: 300;
+}
+
+/* General paragraph styling within the container for consistency */
+.container p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
