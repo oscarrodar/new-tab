@@ -13,6 +13,7 @@ body {
   margin: 0; /* Remove default body margin */
   height: 100vh; /* Make body take full viewport height for new tab */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
+  padding-bottom: 40px; /* Add padding to the bottom of the body to make space for the ad container */
 }
 
 .container { /* Add a container for the content */
@@ -65,4 +66,18 @@ body {
 .container p {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#ad-container {
+  position: fixed; /* Fixed position to stick to the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0; /* Small padding */
+  background-color: #f9f9f9; /* Very light grey background */
+  text-align: center;
+  font-size: 0.8em; /* Smaller font size */
+  color: #555; /* Muted text color */
+  border-top: 1px solid #e0e0e0; /* Subtle top border */
+  box-sizing: border-box; /* Ensure padding doesn't add to width */
 }
