@@ -1,8 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Elegant New Tab",
-  "version": "1.0",
-  "description": "Displays the current hour, date, weather, and work week number.",
+  "version": "1.0.0",
+  "description": "Transform your new tab page into an elegant and informative dashboard. Displays the current time, date, week number, and local weather at a glance. Now with subtle, non-intrusive ads to support development.",
+  "author": "Your Name or Company",
+  "homepage_url": "https://example.com/elegant-new-tab",
   "permissions": ["geolocation"],
   "action": {
     "default_popup": "popup.html",
